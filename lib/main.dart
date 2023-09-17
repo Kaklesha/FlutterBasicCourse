@@ -6,7 +6,7 @@ import 'package:untitled/pages/choose_location.dart';
 import 'package:untitled/quote.dart';
 
 void main() => runApp(MaterialApp(
-     initialRoute: '/home',
+     initialRoute: '/',
     routes: {
         '/':(context)=>Loading(),
         '/home': (context)=>Home(),
