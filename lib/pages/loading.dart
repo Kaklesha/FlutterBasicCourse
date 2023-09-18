@@ -35,10 +35,12 @@ class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Padding(
-        padding: const EdgeInsets.all(50.0),
-        child: Text("loading"),
-      )),
+      backgroundColor: Colors.blue,
+      body: Center(child: SizedBox(height: 40, width: 40,
+        child: CircularProgressIndicator(
+            color: Colors.green[200],
+        ),
+      ))
     );
   }
 }
